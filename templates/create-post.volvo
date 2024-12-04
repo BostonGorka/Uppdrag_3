@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Skapa ett inlägg</title>
+</head>
+<body>
+	<form action="/posts" method="POST">
+		<input type="text" name="userName" placeholder="Användarnamn" required>
+		<input type="text" name="title" placeholder="Titel" required>
+		<input type="text" name="breadText" placeholder="Brödtext" required>
+		<button type="submit">Skapa inlägg</button>
+	</form>
+</body>
+</html>
